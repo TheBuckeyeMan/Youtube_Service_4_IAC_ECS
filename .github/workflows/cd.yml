@@ -35,7 +35,7 @@ jobs:
 
       - name: Create or Select Workspace
         run: |
-          terraform workspace select YoutubeService4ECS || terraform workspace new YoutubeService4ECS
+          terraform workspace select YoutubeServiceECS || terraform workspace new YoutubeServiceECS
         working-directory: terraform
 
       - name: Terraform Apply
