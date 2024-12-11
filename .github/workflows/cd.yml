@@ -1,11 +1,11 @@
 name: Infrastructure CI/CD Pipeline
 
-on:
-  push:
-    branches:
-      - master
-      - UAT
-      - dev
+# on:
+#   push:
+#     branches:
+#       - master
+#       - UAT
+#       - dev
 
 env:
   TF_CLOUD_ORGANIZATION: "1220-IAC"
